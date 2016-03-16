@@ -46,6 +46,7 @@ a:hover {
 
 h1, h2, h3, h4, h5, h6, h1 a {
   color: $wolftechBlue;
+  font-family: 'Lato', sans-serif !important;
   font-weight: bold;
 
   line-height: 1.7;
@@ -59,8 +60,8 @@ h1, h2, h3, h4, h5, h6, h1 a {
 
 /* header text in carousel */
 h1 {
-    color: #3451a3;
-    font-family: 'Lato', sans-serif;
+    color: $wolftechBlue !important;
+    font-family: 'Lato', sans-serif !important;
     font-size: 3em;
     font-weight: 900;
     text-align: center;
