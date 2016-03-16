@@ -47,7 +47,6 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6, h1 a {
-  font-family: $helveticaNeue;
   color: $wolftechBlue;
   font-weight: bold;
 
@@ -126,12 +125,12 @@ img {
 
 // Specify the color of the selection
 ::-moz-selection {
-  color: $black;
-  background: $lightGray;
+  color: $lightGray;
+  background: $wolftechOrange;
 }
 ::selection {
-  color: $black;
-  background: $lightGray;
+  color: $lightGray;
+  background: $wolftechOrange;
 }
 
 // Nicolas Gallagher's micro clearfix hack
@@ -154,24 +153,12 @@ img {
 // .masthead
 //
 
-.wrapper-masthead {
-  margin-bottom: 50px;
-}
-
-.masthead {
-  padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
-
-  @include mobile {
-    text-align: center;
-  }
-}
-
 .site-avatar {
   float: none;
   width: 128px;
   height: 128px;
   display: block;
+  align-self: center;
 
   @include mobile {
     float: none;
@@ -198,7 +185,6 @@ img {
   margin: 0;
   color: $darkGray;
   cursor: pointer;
-  font-family: $helveticaNeue;
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
@@ -214,19 +200,50 @@ img {
   }
 }
 
-nav {
-  float: right;
-  margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $helveticaNeue;
-  font-size: 18px;
+/* the base navbar and background */
+#navbar{
+    background: #3451a3;
+    -webkit-box-shadow: 0px 4px 7px 2px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 4px 7px 2px rgba(0,0,0,0.5);
+    box-shadow: 0px 4px 7px 2px rgba(0,0,0,0.5);
+}
 
-  @include mobile {
-    float: none;
-    margin-top: 9px;
-    display: block;
-    font-size: 16px;
-  }
+/* the buttons on the navbar */
+#navbar .item{
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+    -webkit-box-shadow: 10px 0 15px -4px rgba(36, 67, 155, 0.5);
+    -moz-box-shadow: 10px 0 15px -4px rgba(36, 67, 155, 0.5);
+    box-shadow: 10px 0 15px -4px rgba(36, 67, 155, 0.5);
+}
+#navbar .item:hover{
+    background: #4872E9;
+}
 
+/* images + text on navbar buttons */
+#navbar .item *{
+    color: #f3a023;
+}
+
+/* just images on navbar */
+/* contains code for 3d shadows */
+#navbar .item i{
+   /* text-shadow: 0 1px 0 #F5A123,
+               0 2px 0 #D98F1F,
+               0 3px 0 #9A6516,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+*/}
+
+/* marks the current page on the navbar */
+.navbar-currentpage{
+    background: #264ab1;
+    border-bottom: 4px solid #F5A123;
 }
 
 //
