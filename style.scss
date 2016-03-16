@@ -17,7 +17,7 @@ html {
   font-size: 100%;
 }
 
-body {
+body *{
     background-color: #232323;
     color: #f3a023;
     padding: 0;
@@ -302,6 +302,200 @@ img {
 footer {
   padding: 20px 0;
   text-align: center;
+}
+
+/******************************************
+*************| MEDIA QUERIES |*************
+******************************************/
+
+
+/****************
+Tiny Screens
+****************/
+@media only screen and (max-width: 20em) { /* max-width 320px, mobile-only styles*/
+    body{
+        background-color: #121212;
+    }
+
+    h1{
+        font-size: 1.35em;
+    }
+
+    h3{
+        font-size: 1.0125em;
+    }
+
+    #navbar .item label{
+        display: none;
+    }
+
+    #navbar .item i{
+        display: block;
+        margin-left: -100%;
+        margin-right: -100%;
+        padding-bottom: 0.235em;
+    }
+
+    #owl br{
+        display: none;
+    }
+
+    .divider {
+        border: none;
+    }
+
+    .small-hide{
+        display: none !important;
+    }
+
+    .main-page{
+        margin: 0;
+    }
+
+    #contact-info{
+        font-size:1em;
+    }
+
+    #email-header{
+        font-size: 1em;
+    }
+
+    #mc_embed_signup{
+        margin-top:0.25em;
+        height: auto;
+    }
+
+    #mc-embedded-subscribe-form{
+        margin: auto;
+        border: none;
+    }
+}
+
+/****************
+Small Screens
+****************/
+@media only screen and (min-width: 20.063em) and (max-width: 40em) { /* min-width 321px and max-width 640px*/
+    body{
+        background-color: #121212;
+    }
+
+    h1{
+        font-size: 2em;
+    }
+
+    h3{
+        font-size: 1.5em;
+    }
+
+    #navbar .item label{
+        display: none;
+    }
+
+    #navbar .item i{
+        padding-bottom: 0.235em;
+    }
+    #owl br{
+        display: none;
+    }
+
+    .divider {
+        border: none;
+    }
+
+    .small-hide{
+        display: none !important;
+    }
+
+    .main-page{
+        margin: 0;
+    }
+
+    #mc_embed_signup{
+        margin-top:0.25em;
+        height: auto;
+        max-width: 520px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #mc-embedded-subscribe-form{
+        margin: auto;
+        border: none;
+    }
+}
+
+/****************
+Medium Screens
+****************/
+@media only screen and (min-width: 40.063em) and (max-width: 64em) { /* min-width 641px and max-width 1024px*/
+    body{
+        background-color: #121212;
+    }
+
+    #content p{
+        font-size: 1.25em;
+    }
+    .main-page{
+        margin: 0;
+    }
+    #mc-embedded-subscribe-form{
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+/****************
+Large Screens
+****************/
+@media only screen and (min-width: 64.063em) and (max-width: 90em) { /* min-width 1025px and max-width 1440px*/
+    body{
+        background-image:url(../img/background.png);
+        background-position: center;
+        background-repeat: repeat-x;
+        background-attachment: fixed;
+    }
+    #content p{
+        font-size: 1.25em;
+    }
+    #mc-embedded-subscribe-form{
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+/****************
+X-Large Screens
+****************/
+@media only screen and (min-width: 90.063em) and (max-width: 120em) { /* min-width 1441px and max-width 1920px*/
+    body{
+        background-image:url(../img/background.png);
+        background-position: center;
+        background-repeat: repeat-x;
+        background-attachment: fixed;
+    }
+    #content p{
+        font-size: 1.25em;
+    }
+    #mc-embedded-subscribe-form{
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+/****************
+HD Screens
+****************/
+@media only screen and (min-width: 120.063em) { /* min-width 1921px */
+    body{
+        background-image:url(../img/background.png);
+        background-position: center;
+        background-repeat: repeat-x;
+        background-attachment: fixed;
+    }
+    #content p{
+        font-size: 1.25em;
+    }
+    #mc-embedded-subscribe-form{
+        top: 50%;
+        transform: translateY(-50%);
+    }
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
