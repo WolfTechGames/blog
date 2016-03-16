@@ -13,11 +13,20 @@
 /* BASE RULES */
 /**************/
 
-/*refers to the block the page's content is located on */
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid $gray;
+    margin: 1em 0;
+    padding: 0;
+}
+
 .entry{
   text-align: left;
 }
 
+/*refers to the block the page's content is located on */
 .main-page{
     margin-top: 0.75em !important;
     margin-bottom: 2em !important;
