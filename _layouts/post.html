@@ -19,12 +19,14 @@ layout: default
       <p>
         Written by {{ author.display_name }}
         <br>
+        <br>
+        <br>
         Published on {{ page.date | date: "%B %e, %Y" }}
       </p>
     </div>
     <div class="large-6 columns">
       <div class="meta">
-        <img src="http://www.gravatar.com/avatar/{{ author.gravatar }}?s=100" class = "bio-portrait">
+        <img src="http://www.gravatar.com/avatar/{{ author.gravatar }}?s=200" class = "bio-portrait" id="author">
       </div>
     </div>
   </div>
