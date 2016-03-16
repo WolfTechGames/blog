@@ -12,15 +12,15 @@ layout: default
     {% assign author = site.authors[page.author] %}
   </div>
 
-  <div class="row small-collapse">
-    <div class="small-6 small-centered columns">
+  <div class="row">
+    <div class="large-6 columns">
       <div class="date">
         Written by {{ author.display_name }}
         <br>
         Published on {{ page.date | date: "%B %e, %Y" }}
       </div>
     </div>
-    <div class="small-6 small-centered columns">
+    <div class="large-6 columns">
       <div class="meta">
         <img src="http://www.gravatar.com/avatar/{{ author.gravatar }}?s=100" class = "bio-portrait">
       </div>
