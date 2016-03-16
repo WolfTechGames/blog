@@ -13,6 +13,12 @@
 /* BASE RULES */
 /**************/
 
+/*refers to the block the page's content is located on */
+.main-page{
+    margin-top: 0.75em !important;
+    margin-bottom: 2em !important;
+}
+
 html {
   font-size: 100%;
 }
@@ -150,12 +156,6 @@ strong, b {
     padding: 0em;
     margin: 0em;
     border: 0em;
-}
-
-/*refers to the block the page's content is located on */
-.main-page{
-    margin-top: 0.75em !important;
-    margin-bottom: 2em !important;
 }
 
 /* default settings for elements, */
