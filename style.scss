@@ -19,7 +19,7 @@ html {
 
 body {
 	background: $wolftechBlack;
-  font: 18px/1.4 $helvetica;
+  font: 1.125em $helvetica;
   color: $wolftechOrange;
 }
 
@@ -28,6 +28,16 @@ body {
   max-width: 740px;
   padding: 0 10px;
   width: 100%;
+}
+
+a {
+  color: $white;
+  text-decoration: none;
+  font-style: italic;
+	cursor: pointer;
+  &:hover, &:active {
+    text-decoration: underline;
+  }
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -63,16 +73,6 @@ h4 {
 
 p {
   margin: 15px 0;
-}
-
-a {
-  color: $white;
-  text-decoration: none;
-  font-style: italic;
-	cursor: pointer;
-  &:hover, &:active {
-    text-decoration: underline;
-  }
 }
 
 ul, ol {
@@ -271,9 +271,9 @@ nav {
 
 .wrapper-footer {
   margin-top: 50px;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
+  border-top: 1px solid $wolftechOrange;
+  border-bottom: 1px solid $wolftechOrange;
+  background-color: $darkGray;
 }
 
 footer {
