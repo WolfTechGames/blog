@@ -25,44 +25,39 @@
       <!-- Everything is in one row, which has a max width of 1024px -->
       <!-- Screens larger than 1024px will show the background image behind the content -->
       <div class="small-12 small-centered columns">
-        <div class="wrapper-masthead">
-          <div class="container">
-            <div class="icon-bar five-up borderless" id="navbar">
-              <a class="item navbar-currentpage" tabindex="0">
-                  <i class="fa fa-home "></i>
-                  <label>Home</label>
-              </a>
-              <a class="item" tabindex="0" href="http://google.com">
-                  <i class="fa fa-gamepad"></i>
-                  <label>Games</label>
-              </a>
-              <a class="item" tabindex="0" href="http://google.com">
-                  <i class="fa fa-rss"></i>
-                  <label>Blog</label>
-              </a>
-              <a class="item" tabindex="0" href="http://google.com">
-                  <i class="fa fa-user"></i>
-                  <label>Dev Bios</label>
-              </a>
-              <a class="item" tabindex="0" href="http://google.com">
-                  <i class="fa fa-envelope"></i>
-                  <label>Contact</label>
-              </a>
-            </div>
-            <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
+        <div class="icon-bar five-up borderless" id="navbar">
+          <a class="item" tabindex="0">
+              <i class="fa fa-home "></i>
+              <label>Home</label>
+          </a>
+          <a class="item" tabindex="0" href="http://google.com">
+              <i class="fa fa-gamepad"></i>
+              <label>Games</label>
+          </a>
+          <a class="item navbar-currentpage" tabindex="0" href="http://google.com">
+              <i class="fa fa-rss"></i>
+              <label>Blog</label>
+          </a>
+          <a class="item" tabindex="0" href="http://google.com">
+              <i class="fa fa-user"></i>
+              <label>Dev Bios</label>
+          </a>
+          <a class="item" tabindex="0" href="http://google.com">
+              <i class="fa fa-envelope"></i>
+              <label>Contact</label>
+          </a>
+        </div>
+        <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
 
-            <div class="site-info">
-              <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-              <p class="site-description">{{ site.description }}</p>
-            </div>
-
-            <nav>
-              <a href="{{ site.baseurl }}/">Blog</a>
-              <a href="{{ site.baseurl }}/about">About</a>
-            </nav>
-          </div>
+        <div class="site-info">
+          <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+          <p class="site-description">{{ site.description }}</p>
         </div>
 
+        <nav>
+          <a href="{{ site.baseurl }}/">Blog</a>
+          <a href="{{ site.baseurl }}/about">About</a>
+        </nav>
         <div id="main" role="main" class="container">
           {{ content }}
         </div>
