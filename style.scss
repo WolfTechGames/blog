@@ -130,7 +130,7 @@ strong, b {
   font-style: italic;
   color: $wolftechBlue;
   font-size: 1.5em;
-  text-align: right;
+  text-align: center;
 }
 
 #author{
@@ -377,15 +377,6 @@ Tiny Screens
         margin: auto;
         border: none;
     }
-
-    .date p{
-      height: auto;
-      text-align: center;
-    }
-    #author{
-      float: none;
-      margin: 0 auto;
-    }
 }
 
 /****************
@@ -432,15 +423,6 @@ Small Screens
         margin: auto;
         border: none;
     }
-
-    .date p{
-      height: auto;
-      text-align: center;
-    }
-    #author{
-      float: none;
-      margin: 0 auto;
-    }
 }
 
 /****************
@@ -467,13 +449,6 @@ Medium Screens
     }
     .date p br{
       display: none;
-    }
-    #author{
-      float: none;
-      margin: 0 auto;
-    }
-    br.small-hide{
-        display: none !important;
     }
 }
 /****************
