@@ -125,9 +125,6 @@ strong, b {
   color: $wolftechBlue;
   font-size: 1.5em;
   text-align: center;
-}
-
-.date {
   height: 200px;
 }
 
@@ -221,7 +218,7 @@ a:hover {
 /* header bar, containing logo at top of page */
 #header {
     background-color: #2f2f2f;
-    border-bottom: 0.313em solid #f3a023;
+    border-bottom: 0.313em solid $wolftechOrange;
     -webkit-box-shadow: 0px 4px 7px 2px rgba(0,0,0,0.5);
     -moz-box-shadow: 0px 4px 7px 2px rgba(0,0,0,0.5);
     box-shadow: 0px 4px 7px 2px rgba(0,0,0,0.5);
@@ -247,7 +244,7 @@ a:hover {
 
 /* the base navbar and background */
 #navbar{
-    background: #3451a3;
+    background: $wolftechBlue;
     -webkit-box-shadow: 0px 4px 7px 2px rgba(0,0,0,0.5);
     -moz-box-shadow: 0px 4px 7px 2px rgba(0,0,0,0.5);
     box-shadow: 0px 4px 7px 2px rgba(0,0,0,0.5);
@@ -267,13 +264,13 @@ a:hover {
 
 /* images + text on navbar buttons */
 #navbar .item *{
-    color: #f3a023;
+    color: $wolftechOrange;
 }
 
 /* marks the current page on the navbar */
 .navbar-currentpage{
     background: #264ab1;
-    border-bottom: 4px solid #F5A123;
+    border-bottom: 4px solid $wolftechOrange;
 }
 
 /* content portion of webpages (under navbar/carousel) */
@@ -295,7 +292,7 @@ a:hover {
 #copyright {
     margin: 0.45em;
     font-size: 1em;
-    color: #3859b6;
+    color: $wolftechBlue;
 }
 
 /* changes highlighted or emphasized text to white */
@@ -369,6 +366,10 @@ Tiny Screens
         margin: auto;
         border: none;
     }
+
+    .date p{
+      height: auto;
+    }
 }
 
 /****************
@@ -414,6 +415,10 @@ Small Screens
     #mc-embedded-subscribe-form{
         margin: auto;
         border: none;
+    }
+
+    .date p{
+      height: auto;
     }
 }
 
