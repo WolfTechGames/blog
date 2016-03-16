@@ -2,6 +2,8 @@
 layout: default
 ---
 
+<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/foundation.css" />
+
 <article class="post">
   <h1>{{ page.title }}</h1>
 
@@ -10,12 +12,19 @@ layout: default
     {% assign author = site.authors[page.author] %}
   </div>
 
-  <div class="date">
-    Written by {{ author.display_name }}
-    Published on {{ page.date | date: "%B %e, %Y" }}
-  </div>
-  <div class="meta">
-    <img src="http://www.gravatar.com/avatar/{{ author.gravatar }}?s=175" class = "bio-portrait">
+  <div class="row small-collapse">
+    <div class="small-6 small-centered columns">
+      <div class="date">
+        Written by {{ author.display_name }}
+        <br>
+        Published on {{ page.date | date: "%B %e, %Y" }}
+      </div>
+    </div>
+    <div class="small-6 small-centered columns">
+      <div class="meta">
+        <img src="http://www.gravatar.com/avatar/{{ author.gravatar }}?s=100" class = "bio-portrait">
+      </div>
+    </div>
   </div>
 
   {% include disqus.html %}
