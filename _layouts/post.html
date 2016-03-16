@@ -7,18 +7,15 @@ layout: default
 
   <div class="entry">
     {{ content }}
+    {% assign author = site.authors[page.author] %}
   </div>
 
   <div class="date">
+    Written by {{ author.display_name }}
     Published on {{ page.date | date: "%B %e, %Y" }}
   </div>
-
-  {% assign author = site.authors[page.author] %}
   <div class="meta">
     <img src="http://www.gravatar.com/avatar/{{ author.gravatar }}?s=175" class = "bio-portrait">
-    <span class="author">
-      {{ author.display_name }}
-    </span>
   </div>
 
   {% include disqus.html %}
