@@ -16,7 +16,6 @@ layout: default
 
   <div class="entry">
     {{ content }}
-
   </div>
 
   <br><hr><br>
@@ -24,6 +23,14 @@ layout: default
   <div class="row">
     <div class="meta">
       <img src="{{ author.avatar }}" class = "bio-portrait" id="author">
+      <h3>
+        {{ author.display_name }}
+      </h3>
+      <div class="time">
+        <p>
+          {{ author.bio }}
+        </p>
+      </div>
     </div>
   </div>
 
