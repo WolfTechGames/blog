@@ -118,6 +118,8 @@ em, i {
 
 strong, b {
   font-weight: bold;
+  color: $lightGray;
+  font-style: italic;
 }
 
 .date p{
@@ -377,9 +379,6 @@ Tiny Screens
       height: auto;
       text-align: center;
     }
-    .date p br{
-      display: none;
-    }
     #author{
       float: none;
       margin: 0 auto;
@@ -435,9 +434,6 @@ Small Screens
       height: auto;
       text-align: center;
     }
-    .date p br{
-      display: none;
-    }
     #author{
       float: none;
       margin: 0 auto;
@@ -472,6 +468,9 @@ Medium Screens
     #author{
       float: none;
       margin: 0 auto;
+    }
+    br.small-hide{
+        display: none !important;
     }
 }
 /****************
