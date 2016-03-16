@@ -50,7 +50,7 @@ author_ids: [stew, seby, cody, zack]
 authors:
   stew:
     display_name: Stew Esho
-    avatar: {{ site.baseurl }}/img/stewreal.jpg
+    avatar: http://wolftechgames.com/img/stewreal.jpg
     email: StewardEsho@gmail.com
     web: http://wolftechgames.com
     twitter: StewEsho
@@ -58,7 +58,7 @@ authors:
     bio: Artist, Designer, Webmaster, Animator. Stew does it all.
   seby:
     display_name: Seby Maj
-    avatar: {{ site.baseurl }}/img/sebyreal.png
+    avatar: http://wolftechgames.com/img/sebyreal.png
     email: SebastianMaj@gmail.com
     web: http://wolftechgames.com
     twitter: SebyMaj
@@ -66,7 +66,7 @@ authors:
     bio: Seby is the code maestro. He is the rock of the studio.
   cody:
     display_name: Cody Pedro
-    avatar: {{ site.baseurl }}/img/cody.png
+    avatar: http://wolftechgames.com/img/cody.png
     email:
     web: http://wolftechgames.com
     twitter:
@@ -74,7 +74,7 @@ authors:
     bio: It is Cody's hard work that ushers our games into the third dimension.
   zack:
     display_name: Zack Allard
-    avatar: {{ site.baseurl }}/img/zack.png
+    avatar: http://wolftechgames.com/img/zack.png
     email:
     web: http://wolftechgames.com
     twitter:
