@@ -206,6 +206,12 @@ a:hover {
 **********Specific CSS*********
 ******************************/
 
+.bio-portrait{
+    border-radius: 50%;
+    width: 12.5em;
+    height: 12.5em;
+}
+
 /* header bar, containing logo at top of page */
 #header {
     background-color: #2f2f2f;
@@ -257,21 +263,6 @@ a:hover {
 #navbar .item *{
     color: #f3a023;
 }
-
-/* just images on navbar */
-/* contains code for 3d shadows */
-#navbar .item i{
-   /* text-shadow: 0 1px 0 #F5A123,
-               0 2px 0 #D98F1F,
-               0 3px 0 #9A6516,
-               0 6px 1px rgba(0,0,0,.1),
-               0 0 5px rgba(0,0,0,.1),
-               0 1px 3px rgba(0,0,0,.3),
-               0 3px 5px rgba(0,0,0,.2),
-               0 5px 10px rgba(0,0,0,.25),
-               0 10px 10px rgba(0,0,0,.2),
-               0 20px 20px rgba(0,0,0,.15);
-*/}
 
 /* marks the current page on the navbar */
 .navbar-currentpage{
@@ -341,10 +332,6 @@ Tiny Screens
         margin-left: -100%;
         margin-right: -100%;
         padding-bottom: 0.235em;
-    }
-
-    #owl br{
-        display: none;
     }
 
     .divider {

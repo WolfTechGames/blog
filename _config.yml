@@ -49,6 +49,7 @@ url: http://wolftechgames.com
 # then add in the baseurl here, like this: "/repository-name"
 baseurl: "/blog"
 
+author_ids: [stew, seby]
 authors:
   stew:
     display_name: Stew Esho
