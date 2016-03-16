@@ -154,8 +154,8 @@ strong, b {
 
 /*refers to the block the page's content is located on */
 .main-page{
-    margin-top: 0.75em;
-    margin-bottom: 2em;
+    margin-top: 0.75em !important;
+    margin-bottom: 2em !important;
 }
 
 /* default settings for elements, */
@@ -449,9 +449,9 @@ Large Screens
 @media only screen and (min-width: 64.063em) and (max-width: 90em) { /* min-width 1025px and max-width 1440px*/
     body{
         background-image:url(../img/background.png) !important;
-        background-position: center;
-        background-repeat: repeat-x;
-        background-attachment: fixed;
+        background-position: center !important;
+        background-repeat: repeat-x !important;
+        background-attachment: fixed !important;
     }
     #content p{
         font-size: 1.25em;
@@ -467,9 +467,9 @@ X-Large Screens
 @media only screen and (min-width: 90.063em) and (max-width: 120em) { /* min-width 1441px and max-width 1920px*/
     body{
         background-image:url(../img/background.png) !important;
-        background-position: center;
-        background-repeat: repeat-x;
-        background-attachment: fixed;
+        background-position: center !important;
+        background-repeat: repeat-x !important;
+        background-attachment: fixed !important;
     }
     #content p{
         font-size: 1.25em;
@@ -485,9 +485,9 @@ HD Screens
 @media only screen and (min-width: 120.063em) { /* min-width 1921px */
     body{
         background-image:url(../img/background.png) !important;
-        background-position: center;
-        background-repeat: repeat-x;
-        background-attachment: fixed;
+        background-position: center !important;
+        background-repeat: repeat-x !important;
+        background-attachment: fixed !important;
     }
     #content p{
         font-size: 1.25em;
