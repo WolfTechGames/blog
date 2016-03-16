@@ -21,7 +21,7 @@ footer-links:
   email:  contact@wolftechgames.com
   facebook:
   flickr:
-  github: 
+  github:
   instagram:
   linkedin:
   pinterest:
@@ -48,6 +48,22 @@ url: http://wolftechgames.com
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
 baseurl: "/blog"
+
+authors:
+  stew:
+    display_name: Stew Esho
+    gravatar: 12b5dc1b5cfc29ae887916a6d1354d92
+    email: StewardEsho@gmail.com
+    web: http://wolftechgames.com
+    twitter: StewEsho
+    github: StewEsho
+  seby:
+    display_name: Seby Maj
+    gravatar: 12b5dc1b5cfc29ae887916a6d1354d92
+    email: SebastianMaj@gmail.com
+    web: http://wolftechgames.com
+    twitter: SebyMaj
+    github: SebastianMaj
 
 #
 # !! You don't need to change any of the configuration flags below !!
