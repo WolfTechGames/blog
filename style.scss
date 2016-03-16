@@ -162,10 +162,10 @@ img {
 }
 
 .site-avatar {
-  float: left;
-  width: 70px;
-  height: 70px;
-  margin-right: 15px;
+  float: none;
+  width: 128px;
+  height: 128px;
+  display: block;
 
   @include mobile {
     float: none;
@@ -221,18 +221,6 @@ nav {
     font-size: 16px;
   }
 
-  a {
-    margin-left: 20px;
-    color: $darkGray;
-    text-align: right;
-    font-weight: 300;
-    letter-spacing: 1px;
-
-    @include mobile {
-      margin: 0 10px;
-      color: $blue;
-    }
-  }
 }
 
 //

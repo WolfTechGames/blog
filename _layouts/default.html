@@ -11,12 +11,39 @@
 
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/foundation.css" />
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,900' rel='stylesheet' type='text/css'>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
   </head>
 
   <body>
     <div class="wrapper-masthead">
+      <div class="icon-bar five-up borderless" id="navbar">
+        <a class="item navbar-currentpage" tabindex="0">
+            <i class="fa fa-home "></i>
+            <label>Home</label>
+        </a>
+        <a class="item" tabindex="0" href="http://google.com">
+            <i class="fa fa-gamepad"></i>
+            <label>Games</label>
+        </a>
+        <a class="item" tabindex="0" href="http://google.com">
+            <i class="fa fa-rss"></i>
+            <label>Blog</label>
+        </a>
+        <a class="item" tabindex="0" href="http://google.com">
+            <i class="fa fa-user"></i>
+            <label>Dev Bios</label>
+        </a>
+        <a class="item" tabindex="0" href="http://google.com">
+            <i class="fa fa-envelope"></i>
+            <label>Contact</label>
+        </a>
+      </div>
       <div class="container">
         <header class="masthead clearfix">
           <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
