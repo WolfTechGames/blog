@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hipsum Pipsum
+title: Hipsum Pimpsum
 ---
 
 Scenester sustainable XOXO before they sold out. Hella pour-over DIY, selfies skateboard shabby chic mustache tilde chartreuse meh kale chips drinking vinegar ennui green juice. Try-hard meggings keffiyeh drinking vinegar helvetica vegan austin. Poutine kale chips man braid, twee yr DIY jean shorts. Thundercats keffiyeh affogato, fingerstache austin meh chillwave. Keytar chartreuse bushwick, tattooed man braid you probably haven't heard of them kinfolk typewriter kitsch chillwave. Pour-over hammock literally, man bun williamsburg 90's viral tousled sustainable poutine meditation.
