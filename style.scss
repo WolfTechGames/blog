@@ -314,7 +314,7 @@ Tiny Screens
 ****************/
 @media only screen and (max-width: 20em) { /* max-width 320px, mobile-only styles*/
     body{
-        background-color: #121212;
+        background-color: $wolftechBlack;
     }
 
     h1{
@@ -326,7 +326,7 @@ Tiny Screens
     }
 
     #navbar .item label{
-        display: none;
+        display: none !important;
     }
 
     #navbar .item i{
@@ -393,13 +393,6 @@ Small Screens
 
     #navbar .item i{
         padding-bottom: 0.235em;
-    }
-    #owl br{
-        display: none;
-    }
-
-    .divider {
-        border: none;
     }
 
     .small-hide{
