@@ -15,9 +15,11 @@ layout: default
   <div class="row">
     <div class="large-6 columns">
       <div class="date">
-        Written by {{ author.display_name }}
-        <br>
-        Published on {{ page.date | date: "%B %e, %Y" }}
+        <p>
+          Written by {{ author.display_name }}
+          <br>
+          Published on {{ page.date | date: "%B %e, %Y" }}
+        </p>
       </div>
     </div>
     <div class="large-6 columns">
