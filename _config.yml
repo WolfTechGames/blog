@@ -53,18 +53,36 @@ author_ids: [stew, seby]
 authors:
   stew:
     display_name: Stew Esho
-    gravatar: 767b704c86fa0852f0c8d9ae9f81d8da
+    avatar: {{ site.baseurl }}/img/stewreal.jpg
     email: StewardEsho@gmail.com
     web: http://wolftechgames.com
     twitter: StewEsho
     github: StewEsho
+    bio: Artist, Designer, Webmaster, Animator. Stew does it all.
   seby:
     display_name: Seby Maj
-    gravatar: cc5dfb29934a9006d7d40bc588751305
+    avatar: {{ site.baseurl }}/img/sebyreal.png
     email: SebastianMaj@gmail.com
     web: http://wolftechgames.com
     twitter: SebyMaj
     github: SebastianMaj
+    bio: Seby is the code maestro. He is the rock of the studio.
+  cody:
+    display_name: Cody Pedro
+    avatar: {{ site.baseurl }}/img/cody.png
+    email:
+    web: http://wolftechgames.com
+    twitter:
+    github:
+    bio: It is Cody's hard work that ushers our games into the third dimension.
+  zack:
+    display_name: Zack Allard
+    avatar: {{ site.baseurl }}/img/zack.png
+    email:
+    web: http://wolftechgames.com
+    twitter:
+    github:
+    bio: Zack's scripts breathe life into our ideas, and offers that extra level of polish.
 
 #
 # !! You don't need to change any of the configuration flags below !!
