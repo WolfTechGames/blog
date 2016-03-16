@@ -133,9 +133,11 @@ strong, b {
   font-style: italic;
   color: $wolftechBlue;
   font-size: 1.5em;
-  @include vertical-align();
   text-align: center;
-  height: 200px;
+}
+
+.date {
+  @include vertical-align();
 }
 
 // Specify the color of the selection
