@@ -14,6 +14,10 @@
 /**************/
 
 /*refers to the block the page's content is located on */
+.entry{
+  text-align: left;
+}
+
 .main-page{
     margin-top: 0.75em !important;
     margin-bottom: 2em !important;
@@ -130,8 +134,7 @@ strong, b {
 }
 
 #author{
-  display: block;
-  float: left;
+  margin: 0 auto;
   max-width: 9.375em;
   max-height: 9.375em;
 }

@@ -15,19 +15,13 @@ layout: default
   <br>
 
   <div class="row">
-    <div class="large-6 columns date">
-      <p>
-        Written by <strong>{{ author.display_name }}</strong>
-        <br>
-        <br class="small-hide">
-        <br class="small-hide">
-        Published on {{ page.date | date: "%B %e, %Y" }}
-      </p>
+    <div class="meta">
+      <img src="http://www.gravatar.com/avatar/{{ author.gravatar }}?s=200" class = "bio-portrait" id="author">
     </div>
-    <div class="large-6 columns">
-      <div class="meta">
-        <img src="http://www.gravatar.com/avatar/{{ author.gravatar }}?s=200" class = "bio-portrait" id="author">
-      </div>
+    <div class="date">
+      <p>
+        Written by <strong>{{ author.display_name }}</strong> || Published on <strong>{{ page.date | date: "%B %e, %Y" }}<strong>
+      </p>
     </div>
   </div>
 
