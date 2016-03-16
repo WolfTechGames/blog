@@ -30,13 +30,12 @@ body{
     cursor: default;
 }
 
-.container {
-  margin: 0 auto;
-  max-width: 740px;
-  padding: 0 10px;
-  width: 100%;
+#content *{
+    text-align: center;
+    background: #121212;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
-
 
 a {
     color: $wolftechBlue;
