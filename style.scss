@@ -39,7 +39,7 @@ html {
 
 body{
     background-color: #232323 !important;
-    color: #f3a023 !important;
+    color: $wolftechOrange !important;
     padding: 0;
     margin: 0;
     font-family: 'Lato', sans-serif !important;
@@ -298,6 +298,9 @@ a:hover {
 #content{
     text-align: center;
     background: #121212;
+    color: $wolftechOrange;
+    font-weight: normal;
+    font-style: normal;
     margin-bottom: 0;
     padding-bottom: 0;
 }
