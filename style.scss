@@ -58,8 +58,7 @@ h3 {
 
 h4 {
   font-size: 1.125em;
-  color: $white;
-  font-style: italic;
+  color: $gray;
 }
 
 p {
@@ -67,11 +66,12 @@ p {
 }
 
 a {
-  color: $blue;
+  color: $white;
   text-decoration: none;
+  font-style: italic;
 	cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    text-decoration: underline;
   }
 }
 
