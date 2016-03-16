@@ -375,9 +375,13 @@ Tiny Screens
 
     .date p{
       height: auto;
+      text-align: center;
     }
     .date p br{
       display: none;
+    }
+    #author{
+      float: none;
     }
 }
 
@@ -428,9 +432,13 @@ Small Screens
 
     .date p{
       height: auto;
+      text-align: center;
     }
     .date p br{
       display: none;
+    }
+    #author{
+      float: none;
     }
 }
 
@@ -451,6 +459,16 @@ Medium Screens
     #mc-embedded-subscribe-form{
         top: 50%;
         transform: translateY(-50%);
+    }
+    .date p{
+      height: auto;
+      text-align: center;
+    }
+    .date p br{
+      display: none;
+    }
+    #author{
+      float: none;
     }
 }
 /****************
