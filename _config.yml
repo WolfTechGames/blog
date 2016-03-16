@@ -52,14 +52,14 @@ baseurl: "/blog"
 authors:
   stew:
     display_name: Stew Esho
-    gravatar: 12b5dc1b5cfc29ae887916a6d1354d92
+    gravatar: 767b704c86fa0852f0c8d9ae9f81d8da
     email: StewardEsho@gmail.com
     web: http://wolftechgames.com
     twitter: StewEsho
     github: StewEsho
   seby:
     display_name: Seby Maj
-    gravatar: 12b5dc1b5cfc29ae887916a6d1354d92
+    gravatar: cc5dfb29934a9006d7d40bc588751305
     email: SebastianMaj@gmail.com
     web: http://wolftechgames.com
     twitter: SebyMaj
