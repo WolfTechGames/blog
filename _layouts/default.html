@@ -21,58 +21,63 @@
   </head>
 
   <body>
-    <div class="wrapper-masthead">
-      <div class="icon-bar five-up borderless" id="navbar">
-        <a class="item navbar-currentpage" tabindex="0">
-            <i class="fa fa-home "></i>
-            <label>Home</label>
-        </a>
-        <a class="item" tabindex="0" href="http://google.com">
-            <i class="fa fa-gamepad"></i>
-            <label>Games</label>
-        </a>
-        <a class="item" tabindex="0" href="http://google.com">
-            <i class="fa fa-rss"></i>
-            <label>Blog</label>
-        </a>
-        <a class="item" tabindex="0" href="http://google.com">
-            <i class="fa fa-user"></i>
-            <label>Dev Bios</label>
-        </a>
-        <a class="item" tabindex="0" href="http://google.com">
-            <i class="fa fa-envelope"></i>
-            <label>Contact</label>
-        </a>
-      </div>
-      <div class="container">
-        <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
-
-          <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">{{ site.description }}</p>
+    <div class="row small-collapse main-page">
+      <!-- Everything is in one row, which has a max width of 1024px -->
+      <!-- Screens larger than 1024px will show the background image behind the content -->
+      <div class="small-12 small-centered columns">
+        <div class="wrapper-masthead">
+          <div class="icon-bar five-up borderless" id="navbar">
+            <a class="item navbar-currentpage" tabindex="0">
+                <i class="fa fa-home "></i>
+                <label>Home</label>
+            </a>
+            <a class="item" tabindex="0" href="http://google.com">
+                <i class="fa fa-gamepad"></i>
+                <label>Games</label>
+            </a>
+            <a class="item" tabindex="0" href="http://google.com">
+                <i class="fa fa-rss"></i>
+                <label>Blog</label>
+            </a>
+            <a class="item" tabindex="0" href="http://google.com">
+                <i class="fa fa-user"></i>
+                <label>Dev Bios</label>
+            </a>
+            <a class="item" tabindex="0" href="http://google.com">
+                <i class="fa fa-envelope"></i>
+                <label>Contact</label>
+            </a>
           </div>
+          <div class="container">
+            <header class="masthead clearfix">
+              <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
 
-          <nav>
-            <a href="{{ site.baseurl }}/">Blog</a>
-            <a href="{{ site.baseurl }}/about">About</a>
-          </nav>
-        </header>
+              <div class="site-info">
+                <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+                <p class="site-description">{{ site.description }}</p>
+              </div>
+
+              <nav>
+                <a href="{{ site.baseurl }}/">Blog</a>
+                <a href="{{ site.baseurl }}/about">About</a>
+              </nav>
+            </header>
+          </div>
+        </div>
+
+        <div id="main" role="main" class="container">
+          {{ content }}
+        </div>
+
+        <div class="wrapper-footer">
+          <div class="container">
+            <footer class="footer">
+              {% include svg-icons.html %}
+            </footer>
+          </div>
+        </div>
       </div>
     </div>
-
-    <div id="main" role="main" class="container">
-      {{ content }}
-    </div>
-
-    <div class="wrapper-footer">
-      <div class="container">
-        <footer class="footer">
-          {% include svg-icons.html %}
-        </footer>
-      </div>
-    </div>
-
-    {% include analytics.html %}
+      {% include analytics.html %}
   </body>
 </html>
