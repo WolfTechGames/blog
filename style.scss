@@ -376,6 +376,9 @@ Tiny Screens
     .date p{
       height: auto;
     }
+    .date p br{
+      display: none;
+    }
 }
 
 /****************
@@ -425,6 +428,9 @@ Small Screens
 
     .date p{
       height: auto;
+    }
+    .date p br{
+      display: none;
     }
 }
 
