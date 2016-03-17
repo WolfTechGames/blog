@@ -28,6 +28,7 @@ hr {
   color: $wolftechOrange !important;
   font-weight: normal !important;
   font-style: normal !important;
+  font-family: 'Lato', sans-serif !important;
 }
 
 /*refers to the block the page's content is located on */
@@ -89,10 +90,11 @@ h1 {
 
 /*Sub Headers */
 h3 {
-    color: whitesmoke;
+    color: whitesmoke !important;
     font-size: 1.75em;
     font-weight: 900;
     text-align: center;
+    font-family: 'Lato', sans-serif !important;
 }
 
 h2 {
@@ -144,6 +146,7 @@ strong, b {
   color: $wolftechBlue;
   font-size: 1.5em;
   text-align: center;
+  font-family: 'Lato', sans-serif !important;
 }
 
 #author{
