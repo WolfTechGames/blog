@@ -9,6 +9,7 @@ Hello everyone, this week we have gotten player eating and rocks in the game. I 
 ![](../img/posts/slimeEatingTnet/2016-03-20_21-08-45.gif)
 
 Current Progress:
+
 - Eating Players (Done)
 - Rocks (Done)
 - Shooting Blobs (In Progress)
