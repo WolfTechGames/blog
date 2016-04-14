@@ -25,6 +25,6 @@ Planned Additions for Next weeks post:
 - Shooting Blobs
 - Pushing rocks
 
-Thank you for checking out our blog post sunday, hope you come back next sunday for another great blog post. Don't forget to [follow us on twitter](http://twitter.com/WolfTechGames) for updates and also subscribe to our newsletter. Alright see you next time!
+Thank you for checking out our blog post, hope you come back next time for another great blog post. Don't forget to [follow us on twitter](http://twitter.com/WolfTechGames) for updates and also subscribe to our newsletter. Alright see you next time!
 
 ~Seby
