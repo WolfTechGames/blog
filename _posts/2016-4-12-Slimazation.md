@@ -45,6 +45,7 @@ Also for those who want to create their own slimes feel free to create one follo
 
 - You will NOT receive PAYMENT for completing this action wether its submitting the texture or upon acceptance.
 - You will RECEIVE credit within the tooltip of the object somewhere with whatever name you would like. (You will be notified upon acceptance of your slime and Name must be appropriate)
+- You will also receive a special exclusive hat along with some in game premium currency.
 - The texture must be mature and appropriate.
 - Feel free to use the tool provided to see what the texture looks like on the slime model.
 
