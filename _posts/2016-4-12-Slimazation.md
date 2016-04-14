@@ -41,7 +41,8 @@ Planned Additions for Next weeks post:
 
 Also for those who want to create their own slimes feel free to create one following the texture layout below (READ THE RULES FIRST):
 
-**RULES**:
+**RULES:**
+
 - You will NOT receive PAYMENT for completing this action wether its submitting the texture or upon acceptance.
 - You will RECEIVE credit within the tooltip of the object somewhere with whatever name you would like. (You will be notified upon acceptance of your slime | Name must be appropriate)
 - The texture must be mature and appropriate.
