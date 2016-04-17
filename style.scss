@@ -19,8 +19,9 @@ hr {
     border: 0;
     border-top: 1px solid $darkerGray;
     background-color: $darkerGray;
-    margin: 1em 0;
+    margin: 0.36em 0;
     padding: 0;
+    color: #414141;
 }
 
 .entry{
@@ -303,7 +304,8 @@ a:hover {
 
 /* styles for the copyright clause at the bottom of every webpage */
 #copyright {
-    margin: 0.45em;
+    margin-top: 0em;
+    margin-bottom: 0.45em;
     font-size: 1em;
     color: $wolftechBlue;
 }
