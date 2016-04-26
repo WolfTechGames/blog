@@ -40,7 +40,7 @@ Team Death Match:
 
 We won't have a todo list on this one as the trello has all the information for that. The trello page is linked above if you missed it.
 
-**Closed Alpha Signups! Link is here: **[Signup Page](https://docs.google.com/forms/d/108JR35fC6kBdTCuSGkGBAgGMEHSf2YXsV6nR_o8mGmo/viewform?c=0&w=1)
+**Closed Alpha Signups! Link is here:** [Signup Page](https://docs.google.com/forms/d/108JR35fC6kBdTCuSGkGBAgGMEHSf2YXsV6nR_o8mGmo/viewform?c=0&w=1)
 
 Hope to see you all in game during the testing phase! Also feel free to join our discord channel by clicking [here](https://discord.gg/infuriate-nova-bikanel)
 
