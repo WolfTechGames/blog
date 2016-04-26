@@ -10,7 +10,7 @@ is that we now have full gamemode support! To make this happen we used an abstra
 we create a new script derived from that abstract class and just add more functionality to it depending on the gamemode and then add it to the database and voila we have a new playable gamemode. So far the only gamemodes playable are,
 Free for all and Team deathmatch.
 
-Here is a picture of the our menu:
+Here is a picture of the menu:
 ![](http://i.imgur.com/tnnRRd0.png)
 
 We might also happen to have the best looking Loading screen in the industry. (Sarcasm)
