@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Slymes and Gamemodes (Closed Alpha Signups)
+title: Slymes and Gamemodes! Closed Alpha Too!
 author: seby
 ---
 
