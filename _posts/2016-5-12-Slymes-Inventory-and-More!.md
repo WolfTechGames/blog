@@ -28,7 +28,7 @@ we do not support that game model, if anything it will be related to cosmetics a
 will hear more about it in the future. **If you have any reccomendations, feel free to post a comment below!** 
 
 Here is a gif of how the new Inventory Works and the Chests too:
-![](http://i.imgur.com/Z7UAEzt.gifv)
+![](http://i.imgur.com/Z7UAEzt.gif)
 
 That is it for todays Blog Post, hope you guys like the features we have added so far. Please feel free to post any ideas you may have in the comments. We can not 100% guarantee that your idea will be developed into the game but
 it will be looked at and analysed to see if it fits into the game style.
